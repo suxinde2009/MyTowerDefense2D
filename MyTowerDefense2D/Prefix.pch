@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'MyTowerDefense2D' target in the 'MyTowerDefense2D' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
