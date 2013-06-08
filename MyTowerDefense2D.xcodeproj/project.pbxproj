@@ -191,15 +191,6 @@
 		1FBAAF05176336000088EBA5 /* CCTableViewCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FBAAF04176336000088EBA5 /* CCTableViewCell.cpp */; };
 		1FBAAF09176336000088EBA5 /* HttpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FBAAF08176336000088EBA5 /* HttpClient.cpp */; };
 		1FBAAF12176336000088EBA5 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FBAAF11176336000088EBA5 /* AppDelegate.cpp */; };
-		1FC3806A17634F5F007D7787 /* MainLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC3806817634F5F007D7787 /* MainLayer.cpp */; };
-		1FC3806D17634FF2007D7787 /* ProjectTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC3806B17634FF2007D7787 /* ProjectTile.cpp */; };
-		1FC3807017635066007D7787 /* Tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC3806E17635066007D7787 /* Tower.cpp */; };
-		1FC3807317635098007D7787 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC3807117635098007D7787 /* Enemy.cpp */; };
-		1FC38076176350C1007D7787 /* TileData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC38074176350C0007D7787 /* TileData.cpp */; };
-		1FC38079176350EA007D7787 /* GameHUD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC38077176350E9007D7787 /* GameHUD.cpp */; };
-		1FC3807C17635112007D7787 /* Lightning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC3807A17635111007D7787 /* Lightning.cpp */; };
-		1FC3807F17635135007D7787 /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC3807D17635134007D7787 /* Wave.cpp */; };
-		1FC380821763515E007D7787 /* GameMediator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380801763515C007D7787 /* GameMediator.cpp */; };
 		1FC380A01763541B007D7787 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC380831763541B007D7787 /* CloseNormal.png */; };
 		1FC380A11763541B007D7787 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC380841763541B007D7787 /* CloseSelected.png */; };
 		1FC380A21763541B007D7787 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC380851763541B007D7787 /* Default.png */; };
@@ -229,6 +220,15 @@
 		1FC380BA1763541B007D7787 /* Enemy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC3809D1763541B007D7787 /* Enemy1.png */; };
 		1FC380BB1763541B007D7787 /* MachineGunTurret.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC3809E1763541B007D7787 /* MachineGunTurret.png */; };
 		1FC380BC1763541B007D7787 /* hud.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC3809F1763541B007D7787 /* hud.png */; };
+		1FC380CF17635678007D7787 /* GameMediator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380BD17635678007D7787 /* GameMediator.cpp */; };
+		1FC380D017635678007D7787 /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380BF17635678007D7787 /* Wave.cpp */; };
+		1FC380D117635678007D7787 /* Lightning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380C117635678007D7787 /* Lightning.cpp */; };
+		1FC380D217635678007D7787 /* GameHUD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380C317635678007D7787 /* GameHUD.cpp */; };
+		1FC380D317635678007D7787 /* TileData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380C517635678007D7787 /* TileData.cpp */; };
+		1FC380D417635678007D7787 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380C717635678007D7787 /* Enemy.cpp */; };
+		1FC380D517635678007D7787 /* Tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380C917635678007D7787 /* Tower.cpp */; };
+		1FC380D617635678007D7787 /* ProjectTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380CB17635678007D7787 /* ProjectTile.cpp */; };
+		1FC380D717635678007D7787 /* MainLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380CD17635678007D7787 /* MainLayer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -649,24 +649,6 @@
 		1FBAAF0E176336000088EBA5 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		1FBAAF10176336000088EBA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		1FBAAF11176336000088EBA5 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		1FC3806817634F5F007D7787 /* MainLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainLayer.cpp; sourceTree = "<group>"; };
-		1FC3806917634F5F007D7787 /* MainLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLayer.h; sourceTree = "<group>"; };
-		1FC3806B17634FF2007D7787 /* ProjectTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProjectTile.cpp; sourceTree = "<group>"; };
-		1FC3806C17634FF2007D7787 /* ProjectTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectTile.h; sourceTree = "<group>"; };
-		1FC3806E17635066007D7787 /* Tower.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tower.cpp; sourceTree = "<group>"; };
-		1FC3806F17635066007D7787 /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tower.h; sourceTree = "<group>"; };
-		1FC3807117635098007D7787 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
-		1FC3807217635098007D7787 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
-		1FC38074176350C0007D7787 /* TileData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TileData.cpp; sourceTree = "<group>"; };
-		1FC38075176350C0007D7787 /* TileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileData.h; sourceTree = "<group>"; };
-		1FC38077176350E9007D7787 /* GameHUD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameHUD.cpp; sourceTree = "<group>"; };
-		1FC38078176350E9007D7787 /* GameHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameHUD.h; sourceTree = "<group>"; };
-		1FC3807A17635111007D7787 /* Lightning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lightning.cpp; sourceTree = "<group>"; };
-		1FC3807B17635112007D7787 /* Lightning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lightning.h; sourceTree = "<group>"; };
-		1FC3807D17635134007D7787 /* Wave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wave.cpp; sourceTree = "<group>"; };
-		1FC3807E17635135007D7787 /* Wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wave.h; sourceTree = "<group>"; };
-		1FC380801763515C007D7787 /* GameMediator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameMediator.cpp; sourceTree = "<group>"; };
-		1FC380811763515D007D7787 /* GameMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMediator.h; sourceTree = "<group>"; };
 		1FC380831763541B007D7787 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloseNormal.png; path = Resources/CloseNormal.png; sourceTree = "<group>"; };
 		1FC380841763541B007D7787 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloseSelected.png; path = Resources/CloseSelected.png; sourceTree = "<group>"; };
 		1FC380851763541B007D7787 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
@@ -696,6 +678,24 @@
 		1FC3809D1763541B007D7787 /* Enemy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Enemy1.png; path = Resources/Enemy1.png; sourceTree = "<group>"; };
 		1FC3809E1763541B007D7787 /* MachineGunTurret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MachineGunTurret.png; path = Resources/MachineGunTurret.png; sourceTree = "<group>"; };
 		1FC3809F1763541B007D7787 /* hud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hud.png; path = Resources/hud.png; sourceTree = "<group>"; };
+		1FC380BD17635678007D7787 /* GameMediator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameMediator.cpp; path = Classes/GameMediator.cpp; sourceTree = "<group>"; };
+		1FC380BE17635678007D7787 /* GameMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameMediator.h; path = Classes/GameMediator.h; sourceTree = "<group>"; };
+		1FC380BF17635678007D7787 /* Wave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Wave.cpp; path = Classes/Wave.cpp; sourceTree = "<group>"; };
+		1FC380C017635678007D7787 /* Wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wave.h; path = Classes/Wave.h; sourceTree = "<group>"; };
+		1FC380C117635678007D7787 /* Lightning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Lightning.cpp; path = Classes/Lightning.cpp; sourceTree = "<group>"; };
+		1FC380C217635678007D7787 /* Lightning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lightning.h; path = Classes/Lightning.h; sourceTree = "<group>"; };
+		1FC380C317635678007D7787 /* GameHUD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameHUD.cpp; path = Classes/GameHUD.cpp; sourceTree = "<group>"; };
+		1FC380C417635678007D7787 /* GameHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameHUD.h; path = Classes/GameHUD.h; sourceTree = "<group>"; };
+		1FC380C517635678007D7787 /* TileData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TileData.cpp; path = Classes/TileData.cpp; sourceTree = "<group>"; };
+		1FC380C617635678007D7787 /* TileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileData.h; path = Classes/TileData.h; sourceTree = "<group>"; };
+		1FC380C717635678007D7787 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Enemy.cpp; path = Classes/Enemy.cpp; sourceTree = "<group>"; };
+		1FC380C817635678007D7787 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = Classes/Enemy.h; sourceTree = "<group>"; };
+		1FC380C917635678007D7787 /* Tower.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tower.cpp; path = Classes/Tower.cpp; sourceTree = "<group>"; };
+		1FC380CA17635678007D7787 /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tower.h; path = Classes/Tower.h; sourceTree = "<group>"; };
+		1FC380CB17635678007D7787 /* ProjectTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProjectTile.cpp; path = Classes/ProjectTile.cpp; sourceTree = "<group>"; };
+		1FC380CC17635678007D7787 /* ProjectTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectTile.h; path = Classes/ProjectTile.h; sourceTree = "<group>"; };
+		1FC380CD17635678007D7787 /* MainLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainLayer.cpp; path = Classes/MainLayer.cpp; sourceTree = "<group>"; };
+		1FC380CE17635678007D7787 /* MainLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainLayer.h; path = Classes/MainLayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1578,24 +1578,24 @@
 		1FBAAF1B176336EC0088EBA5 /* MyClasses */ = {
 			isa = PBXGroup;
 			children = (
-				1FC3806917634F5F007D7787 /* MainLayer.h */,
-				1FC3806817634F5F007D7787 /* MainLayer.cpp */,
-				1FC3806B17634FF2007D7787 /* ProjectTile.cpp */,
-				1FC3806C17634FF2007D7787 /* ProjectTile.h */,
-				1FC3806E17635066007D7787 /* Tower.cpp */,
-				1FC3806F17635066007D7787 /* Tower.h */,
-				1FC3807117635098007D7787 /* Enemy.cpp */,
-				1FC3807217635098007D7787 /* Enemy.h */,
-				1FC38074176350C0007D7787 /* TileData.cpp */,
-				1FC38075176350C0007D7787 /* TileData.h */,
-				1FC38077176350E9007D7787 /* GameHUD.cpp */,
-				1FC38078176350E9007D7787 /* GameHUD.h */,
-				1FC3807A17635111007D7787 /* Lightning.cpp */,
-				1FC3807B17635112007D7787 /* Lightning.h */,
-				1FC3807D17635134007D7787 /* Wave.cpp */,
-				1FC3807E17635135007D7787 /* Wave.h */,
-				1FC380801763515C007D7787 /* GameMediator.cpp */,
-				1FC380811763515D007D7787 /* GameMediator.h */,
+				1FC380BD17635678007D7787 /* GameMediator.cpp */,
+				1FC380BE17635678007D7787 /* GameMediator.h */,
+				1FC380BF17635678007D7787 /* Wave.cpp */,
+				1FC380C017635678007D7787 /* Wave.h */,
+				1FC380C117635678007D7787 /* Lightning.cpp */,
+				1FC380C217635678007D7787 /* Lightning.h */,
+				1FC380C317635678007D7787 /* GameHUD.cpp */,
+				1FC380C417635678007D7787 /* GameHUD.h */,
+				1FC380C517635678007D7787 /* TileData.cpp */,
+				1FC380C617635678007D7787 /* TileData.h */,
+				1FC380C717635678007D7787 /* Enemy.cpp */,
+				1FC380C817635678007D7787 /* Enemy.h */,
+				1FC380C917635678007D7787 /* Tower.cpp */,
+				1FC380CA17635678007D7787 /* Tower.h */,
+				1FC380CB17635678007D7787 /* ProjectTile.cpp */,
+				1FC380CC17635678007D7787 /* ProjectTile.h */,
+				1FC380CD17635678007D7787 /* MainLayer.cpp */,
+				1FC380CE17635678007D7787 /* MainLayer.h */,
 			);
 			name = MyClasses;
 			sourceTree = "<group>";
@@ -1900,15 +1900,15 @@
 				1FBAAF05176336000088EBA5 /* CCTableViewCell.cpp in Sources */,
 				1FBAAF09176336000088EBA5 /* HttpClient.cpp in Sources */,
 				1FBAAF12176336000088EBA5 /* AppDelegate.cpp in Sources */,
-				1FC3806A17634F5F007D7787 /* MainLayer.cpp in Sources */,
-				1FC3806D17634FF2007D7787 /* ProjectTile.cpp in Sources */,
-				1FC3807017635066007D7787 /* Tower.cpp in Sources */,
-				1FC3807317635098007D7787 /* Enemy.cpp in Sources */,
-				1FC38076176350C1007D7787 /* TileData.cpp in Sources */,
-				1FC38079176350EA007D7787 /* GameHUD.cpp in Sources */,
-				1FC3807C17635112007D7787 /* Lightning.cpp in Sources */,
-				1FC3807F17635135007D7787 /* Wave.cpp in Sources */,
-				1FC380821763515E007D7787 /* GameMediator.cpp in Sources */,
+				1FC380CF17635678007D7787 /* GameMediator.cpp in Sources */,
+				1FC380D017635678007D7787 /* Wave.cpp in Sources */,
+				1FC380D117635678007D7787 /* Lightning.cpp in Sources */,
+				1FC380D217635678007D7787 /* GameHUD.cpp in Sources */,
+				1FC380D317635678007D7787 /* TileData.cpp in Sources */,
+				1FC380D417635678007D7787 /* Enemy.cpp in Sources */,
+				1FC380D517635678007D7787 /* Tower.cpp in Sources */,
+				1FC380D617635678007D7787 /* ProjectTile.cpp in Sources */,
+				1FC380D717635678007D7787 /* MainLayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
