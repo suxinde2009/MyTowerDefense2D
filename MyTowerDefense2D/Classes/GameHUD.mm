@@ -9,6 +9,8 @@
 #include "GameHUD.h"
 #include "GameMediator.h"
 
+#import <UIKit/UIKit.h>
+
 using namespace cocos2d;
 
 int waveCount;
@@ -197,6 +199,13 @@ void GameHUD::updateBaseHp(int amount){
 	}
     
 	if(baseHpPercentage <=0){
+        
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Game Over" message:nil delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+        [alertView show];
+        [alertView release];
+        
+        cocos2d::CCDirector::sharedDirector()->pause();
+        
 		CCLog("Game Over");
 	}
     

@@ -223,7 +223,7 @@
 		1FC380CF17635678007D7787 /* GameMediator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380BD17635678007D7787 /* GameMediator.cpp */; };
 		1FC380D017635678007D7787 /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380BF17635678007D7787 /* Wave.cpp */; };
 		1FC380D117635678007D7787 /* Lightning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380C117635678007D7787 /* Lightning.cpp */; };
-		1FC380D217635678007D7787 /* GameHUD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380C317635678007D7787 /* GameHUD.cpp */; };
+		1FC380D217635678007D7787 /* GameHUD.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380C317635678007D7787 /* GameHUD.mm */; };
 		1FC380D317635678007D7787 /* TileData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380C517635678007D7787 /* TileData.cpp */; };
 		1FC380D417635678007D7787 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380C717635678007D7787 /* Enemy.cpp */; };
 		1FC380D517635678007D7787 /* Tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FC380C917635678007D7787 /* Tower.cpp */; };
@@ -684,7 +684,7 @@
 		1FC380C017635678007D7787 /* Wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wave.h; path = Classes/Wave.h; sourceTree = "<group>"; };
 		1FC380C117635678007D7787 /* Lightning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Lightning.cpp; path = Classes/Lightning.cpp; sourceTree = "<group>"; };
 		1FC380C217635678007D7787 /* Lightning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lightning.h; path = Classes/Lightning.h; sourceTree = "<group>"; };
-		1FC380C317635678007D7787 /* GameHUD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameHUD.cpp; path = Classes/GameHUD.cpp; sourceTree = "<group>"; };
+		1FC380C317635678007D7787 /* GameHUD.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameHUD.mm; path = Classes/GameHUD.mm; sourceTree = "<group>"; };
 		1FC380C417635678007D7787 /* GameHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameHUD.h; path = Classes/GameHUD.h; sourceTree = "<group>"; };
 		1FC380C517635678007D7787 /* TileData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TileData.cpp; path = Classes/TileData.cpp; sourceTree = "<group>"; };
 		1FC380C617635678007D7787 /* TileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileData.h; path = Classes/TileData.h; sourceTree = "<group>"; };
@@ -1584,7 +1584,7 @@
 				1FC380C017635678007D7787 /* Wave.h */,
 				1FC380C117635678007D7787 /* Lightning.cpp */,
 				1FC380C217635678007D7787 /* Lightning.h */,
-				1FC380C317635678007D7787 /* GameHUD.cpp */,
+				1FC380C317635678007D7787 /* GameHUD.mm */,
 				1FC380C417635678007D7787 /* GameHUD.h */,
 				1FC380C517635678007D7787 /* TileData.cpp */,
 				1FC380C617635678007D7787 /* TileData.h */,
@@ -1903,7 +1903,7 @@
 				1FC380CF17635678007D7787 /* GameMediator.cpp in Sources */,
 				1FC380D017635678007D7787 /* Wave.cpp in Sources */,
 				1FC380D117635678007D7787 /* Lightning.cpp in Sources */,
-				1FC380D217635678007D7787 /* GameHUD.cpp in Sources */,
+				1FC380D217635678007D7787 /* GameHUD.mm in Sources */,
 				1FC380D317635678007D7787 /* TileData.cpp in Sources */,
 				1FC380D417635678007D7787 /* Enemy.cpp in Sources */,
 				1FC380D517635678007D7787 /* Tower.cpp in Sources */,
@@ -1919,7 +1919,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: XinDe Su (Q6Q38S862J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: XinDe Su (Q6Q38S862J)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1940,7 +1941,9 @@
 					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/third_party/ios\"",
 					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/ios\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "F70EFF47-3B68-4942-BC98-1CB4EFE09043";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F70EFF47-3B68-4942-BC98-1CB4EFE09043";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1950,6 +1953,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: XinDe Su (Q6Q38S862J)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1968,8 +1972,9 @@
 					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/third_party/ios\"",
 					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/ios\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "F70EFF47-3B68-4942-BC98-1CB4EFE09043";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1979,12 +1984,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: XinDe Su (Q6Q38S862J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: XinDe Su (Q6Q38S862J)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MyTowerDefense2D/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = MyTowerDefense2D/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MyTowerDefense2D/libs/cocos2dx/platform/third_party/ios/libraries\"",
@@ -1994,6 +2002,8 @@
 					"-lz",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F70EFF47-3B68-4942-BC98-1CB4EFE09043";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F70EFF47-3B68-4942-BC98-1CB4EFE09043";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2002,11 +2012,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: XinDe Su (Q6Q38S862J)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MyTowerDefense2D/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = MyTowerDefense2D/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MyTowerDefense2D/libs/cocos2dx/platform/third_party/ios/libraries\"",
@@ -2016,6 +2028,7 @@
 					"-lz",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F70EFF47-3B68-4942-BC98-1CB4EFE09043";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
